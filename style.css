@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-color: #313129;
+    color: white;
+    font-size: 3rem;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Profile Image */
+.profile-image {
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Information List */
+.info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.info-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Actions */
+.actions {
+    margin: 20px;
+    text-align: left;
+}
+
+.actions a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+.actions a:hover {
+    text-decoration: underline;
+}
+
+/* Post Section */
+.post {
+    margin: 20px;
+}
+
+.post-image {
+    border-radius: 0 50px 0 50px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Time Counter Image */
+.time-counter {
+    border-radius: 50px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Types of List */
+.types-of-list {
+    margin: 20px;
+}
+
+.types-of-list h3 {
+    margin-top: 20px;
+}
+
+.types-of-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.types-of-list li {
+    margin-bottom: 5px;
+}
+
+/* Logo */
+.logo {
+    border: 2px outset #555555;
+    border-radius: 100px;
+    border-color: aqua;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #313129;
+    color: white;
+}
