@@ -3,79 +3,379 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Bayisa Portfolio</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+        emailjs.init({
+            publicKey: "Pze1ZD6Es9w5ZWxV5",
+        });
+        })();
+        </script>
+      
+            
 </head>
 <body>
-    <header class="header">
-        My Profile
-    </header>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">A</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="about">
+            <div class="about-container">
+                <section id="home">
+                    <div class="about-container">
+                        <div class="img-name">
+                            <div class="about-image">
+                                <img  src="image/_0037.jpg" alt="./image/me6.jpg">
+                            </div>
+                            <div class="me" >
+                                <h2 class="name">
+                                    <span>H</span>
+                                    <span>i</span>
+                                    <span>,</span>
+                                    <span> </span>
+                                    
+                                    <span>I</span>
+                                    <span class="sp"> </span>
+                                    <span class="sp">a</span>
+                                    <span>m</span>
+                                    <span class="sp"> </span>
+                                    <span>A</span>
+                                    <span>w</span>
+                                    <span>e</span>
+                                    <span>l</span>
+                                  </h2>
+                                <h3 class="title">
+                                    <span>S</span>
+                                    <span>o</span>
+                                    <span>f</span>
+                                    <span>t</span>
+                                    <span>w</span>
+                                    <span>a</span>
+                                    <span>r</span>
+                                    <span>e</span>
+                                    <span class="sp"> </span>
+                                    <span>E</span>
+                                    <span>n</span>
+                                    <span>g</span>
+                                    <span>i</span>
+                                    <span>n</span>
+                                    <span>e</span>
+                                    <span>e</span>
+                                    <span>r</span><br/>
+                                    
+                                  </h3>
+                                <h3 class="title">
+                                    <span class="sp"></span>
+                                    <span>F</span>
+                                    <span>u</span>
+                                    <span>l</span>
+                                    <span>l</span>
+                                    <span>s</span>
+                                    <span>t</span>
+                                    <span>a</span>
+                                    <span>c</span>
+                                    <span>k</span>
+                                    <span class="sp"> </span>
+                                    <span>D</span>
+                                    <span>e</span>
+                                    <span>v</span>
+                                    <span>e</span>
+                                    <span>l</span>
+                                    <span>o</span>
+                                    <span>p</span>
+                                    <span>e</span>
+                                    <span>r</span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+            
+                </section>
+                <div class="vertical-line"></div>
+                <div class="about-content">
+                    <h2>About Me</h2>
+                    <p>
+                        Hi, I'm Awel, a passionate web developer and designer with a focus on creating modern,
+                         responsive, and user-friendly websites. I specialize in HTML, CSS, and JavaScript, and 
+                         I'm constantly learning new technologies to enhance my skills. My goal is to build impactful 
+                         digital experiences that solve real-world problems.
+                    </p>
+                    <p>
+                        I'm currently a student at Adama Science and Technology University, where I'm honing my development
+                         skills through projects like this portfolio. In my free time, I enjoy exploring new frameworks, 
+                         contributing to open-source projects, and staying updated with the latest industry trends.
+                    </p>
+                    <a href="#contact" class="cta-button">Get in Touch</a>
+                    <a href="./image/BayisaBalchaTekaResume (1).pdf" download="BayisaBalchaResume.pdf" class="cta-button">Download Resume as PDF</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <main>
+        
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+               
+                <div class="skill-card">
+                    <img src="./image/html.png" alt="HTML Icon">
+                    <h3>HTML</h3>
+                    <p>Proficient in creating semantic and accessible web structures.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                    <div class="progress-label">90%</div>
+                </div>
+                
+                <div class="skill-card">
+                    <img src="./image/tailwind.jpg" alt="CSS Icon">
+                    <h3>CSS</h3>
+                    <p>Skilled in styling web pages with modern CSS techniques,and frame work</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                    <div class="progress-label">85%</div>
+                </div>
+             
+                <div class="skill-card">
+                    <img src="./image/react.png" alt="JavaScript Icon">
+                    <h3>JavaScript/React </h3>
+                    <p>Experienced in building interactive and dynamic web features.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                    <div class="progress-label">75%</div>
+                </div>
+        
+                <div class="skill-card">
+                    <img src="./image/n.png" alt="React Icon">
+                    <h3>Next</h3>
+                    <p>Its combination of SSR, SSG,
+                         API routes, and a host of other features makes it an excellent choice for developers looking to build fast, scalable, and SEO-friendly applications
 
-    <img src="resource/image.jpg" alt="My Profile Image" class="profile-image" width="150" height="150">
-
-    <ul class="info-list">
-        <li><strong>Name:</strong> Awel</li>
-        <li><strong>Age:</strong> 20</li>
-        <li><strong>Sex:</strong> Male</li>
-        <li><strong>Department:</strong> Software</li>
-        <li><strong>Year:</strong> 2<sup>nd</sup></li>
-    </ul>
-
-    <hr>
-
-    <div class="actions">
-        <h2>ACTIONS</h2>
-        <a href="#">Profile</a>
-        <a href="#">Create Post</a>
-        <a href="#">Message</a>
-        <a href="#">Friends</a>
-    </div>
-
-    <section class="post">
-        <h3>Post</h3>
-        <img src="resource/dev.png" alt="Post Image" class="post-image" width="400" height="220">
-        <h3><b>Image Border - Different Angles</b></h3>
-        <p>
-            The image contains different border radius.<br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quae quos assumenda consequuntur quasi excepturi ab! Sequi exercitationem corporis animi corrupti molestias. Dolore at hic animi eveniet unde sint necessitatibus.
-            <br><a href="#">Read More</a>
-        </p>
-        <img src="resource/never.png" alt="Time Counter" width="320" height="320" class="time-counter">
-    </section>
-
-    <section class="types-of-list">
-        <h2><b>Types of List</b></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <ul>
-            <li>
-                <h3>HTML</h3>
-                <ul>
-                    <li>Elements</li>
-                    <li>Attributes</li>
-                </ul>
-            </li>
-            <li>
-                <h3>CSS</h3>
-                <ul>
-                    <li>Background Color</li>
-                    <li>Color</li>
-                    <li>Text Alignment</li>
-                </ul>
-            </li>
-        </ul>
-        <a href="file:///C:/Users/LENOVO/.vscode/html%20project/project1_day1.html">Read More</a>
-        <img src="resource/logo.png" alt="Logo" width="150" height="150" class="logo">
-        <p>Awel has changed his profile.</p>
-        <pre>
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
-Perferendis voluptatibus enim maiores qui? Velit fugiat
-deserunt nesciunt ullam dignissimos ut!
-        </pre>
-    </section>
-
-    <footer class="footer">
-        &copy; 2025 My Portfolio
-        <h1>contact </h1>
-    </footer>
+                    </p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                    <div class="progress-label">70%</div>
+                </div>
+             
+                <div class="skill-card">
+                    <img src="./image/node.png" alt="Node.js Icon">
+                    <h3>Node.js</h3>
+                    <p>Familiar with server-side development using Node.js.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 65%;"></div>
+                    </div>
+                    <div class="progress-label">70%</div>
+                </div>
+            
+                <div class="skill-card">
+                    <img src="./image/Git.jpg" alt="Git Icon">
+                    <h3>Git and Github</h3>
+                    <p>Experienced in version control and collaboration using Git.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                    <div class="progress-label">80%</div>
+                </div>
+             
+                <div class="skill-card">
+                    <img src="./image/python.jpg" alt="Python Icon">
+                    <h3>Python</h3>
+                    <p>Skilled in scripting and data analysis with Python.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                    <div class="progress-label">70%</div>
+                </div>
+                
+                <div class="skill-card">
+                    <img src="./image/mango.jpg" alt="SQL Icon">
+                    <h3>SQL and MangoDB</h3>
+                    <p>Proficient in managing and querying relational databases.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                    <div class="progress-label">75%</div>
+                </div>
+                
+                <div class="skill-card">
+                    <img src="./image/figmad.jpg" alt="Figma Icon">
+                    <h3>Figma</h3>
+                    <p> Designing UI/UX prototypes with Figma.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;"></div>
+                    </div>
+                    <div class="progress-label">60%</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <main class="project"> 
+        <section class="project-section" id="project">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">
+                        The images below demonstrate the prototype 
+                        of my project, highlighting its design,
+                         functionality, and key features.for more information go to on github page
+                    </p>
+                </div>
+                <div class="project-cards">
+                 
+                    <div class="project-card card-1">
+                        <div class="card-image">
+                            <img src="./image/bb3.png" alt="onlilearning" class="main-image">
+                            <div class="card-decor">
+                                <img src="./image/bb3.png" alt="Edit Icon" class="decor-icon">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Online learning App</h3>
+                            <p class="card-description">An online learning app is a digital 
+                                platform that provides educational content and resources 
+                                over the internet. These apps offer a wide range of courses, tutorials,
+                                 and interactive lessons across various subjects,
+                                 making learning accessible anytime and anywhere</p>
+                                 <button class="cta-button"><a  href="https://github.com/bayedhaf/Educatio-live-APP ">See more on Github</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="project-card card-2">
+                        <div class="card-image">
+                            <img src="./image/ss.png" alt="Data Integrity" class="main-image">
+                            <div class="card-decor">
+                                <img src="./image/so.png" alt="Lock Icon" class="decor-icon">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Ecommerce-website</h3>
+                            <p class="card-description"> e-commerce website is an online platform where businesses sell products or services to customers. It allows users to browse items, add them to
+                                 a cart, and complete purchases securely</p>
+                        </div>
+                        <button class="cta-button"><a  href="https://github.com/bayedhaf/Ecommerce-Website">See more on Github</a></button>
+                    </div>
+    
+              
+                    <div class="project-card card-3">
+                        <div class="card-image">
+                            <img src="./image/appdata.png" alt="Secure Access" class="main-image">
+                            <div class="card-decor">
+                                <img src="./image/ap1.png" alt="Shield Icon" class="decor-icon">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">AppData</h3>
+                            <p class="card-description">An app that uses Appdata 
+                                for food delivery leverages user and operational data to enhance the experience.</p>
+                        </div>
+                        <button class="cta-button"><a  href="https://github.com/bayedhaf/AppData">See more on Github</a></button>
+                    </div>
+    
+                    
+                    <div class="project-card card-4">
+                        <div class="card-image">
+                            <img src="./image/ov2.png" alt="Scalable Design" class="main-image">
+                            <div class="card-decor">
+                                <img src="./image/ov1.png" alt="Rocket Icon" class="decor-icon">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Online-vote-app</h3>
+                            <p class="card-description">An online vote app is a digital platform that enables users to cast votes electronically via the internet. It simplifies the voting process by allowing participants to vote securely from their devices, 
+                                such as smartphones, tablets, or computers</p>
+                        </div>
+                        <button class="cta-button"><a  href="https://github.com/bayedhaf/Online-vote-App">See more on Github</a></button>
+                    </div>
+    
+                  
+                   
+                </div>
+            </div>
+        </section>
+    </main>
+    <main>
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h1>Contact Me</h1>
+                
+                <form id="contactForm" class="contact-form" >
+                    <input type="text" id="name" placeholder="Your Name..." required>
+                    <input type="email"  id="email" placeholder="Your Email..." required>
+                    <textarea id="message"  placeholder="Your Message..." required></textarea>
+                    <button onclick="sendEmail()" type="submit">Send</button>
+                </form>
+                
+                <div id="formMessage" style="display: none;"></div>
+            </div>
+        </section>
+    
+       
+        <footer>
+            <div class="container">
+                <div class="logo-contact">
+                    <div class="imgelogo"> <a class="lnk" href="https://github.com/bayedhaf/bayedhaf" target="_blank">
+                        <img src="./image/github.jpg" alt="" class="imgelogo"></a></div>
+                    <div class="imgelogo"> <a className="link" href="https://et.linkedin.com/in/bayisa-balcha-52b12a334">
+                        <img src="./image/lkdn.jpg" alt="" class="imgelogo">
+                      </a></div>
+                    <div class="imgelogo">          <a className="link" href="https://t.me/bayedhaf">
+                        <img src="./image/telegram.jpg" alt="" class="imgelogo">
+                        </a>
+                    </div>
+                    <div class="imgelogo"> <a className="link" href="https://www.facebook.com/bayisabalcha1665">
+                        <img src="./image/facebook.jpg" alt="" class="imgelogo">
+                      </a></div>
+                </div>
+               <div class="info">
+                    <div class=""> 
+                        <h6>Phone No:</h6>
+                        <p>
+                            <p>📞+251953696370<p>
+                            <p>📞+251714159557</p>
+                        </p>
+                     </div>
+                    <div class="">
+                        <h6>Email address</h6>
+                        <a class="link" href="mailto:bayedhaf2023@gmail.com">awelkassim45@gmail.com</a>
+                        <h6>Certificate Udacity</h6>
+                        <a class="lnk"  href="https://www.udacity.com/certificate/e/862c40a6-bcb3-11ef-be96-b31889be8afe" target="_blank">Certificate Link</a>
+            
+                     </div>
+                    <div className="footer-card">
+                        <p>Company: ASTU (University)</p>
+                       
+                    </div>
+               </div>
+                
+                <p class="foter" ><a href="#">Privacy Policy</a><a href="#">Terms of Service</a> <p>&copy; 2025. All rights reserved.</p><p>Bayisa @Software Engineer's</p></p>
+            </div>
+        </footer>
+    </main>
+    <script src="/Email.js" defer></script>
+    <script src="/main.js" defer></script>
 </body>
 </html>
